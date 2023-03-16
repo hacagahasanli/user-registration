@@ -5,7 +5,7 @@ import router from "./routes/index.js"
 config()
 
 const app = express()
-const PORT = 5001
+const PORT = 5001;
 const DB_URL = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@${process.env.DB_NAME}.cd6amzr.mongodb.net/?retryWrites=true&w=majority`
 
 app.use(express.json())
